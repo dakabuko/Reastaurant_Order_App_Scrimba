@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Order App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header-container">
+    <div class="header-text">
+      <h1 class="title">RoundTheClock Cafe</h1> 
+      <p class="subtitle">satisfy your taste.</p>
+    </div>
+  </header>
+  <main class="main-section" id="main-section">
+    <div class="manu-items" id="menu-items"></div>
+    <div class="order-items" id="order-items"></div>
+    <div class="payment-modal" id="payment-modal">
+        <div class="modal-top">Enter Card Details</div>
+        <div form-details>
+          <form class="card-details">
+            <input type="text" id="name" placeholder="Type your name" required>
+            <input type="number" id="card-number" placeholder="Enter your card Number" required/>
+            <input type="number" id="card-cvc" placeholder="CVC number" required/>
+            <button id="card-detail-submit-btn" class="card-btn">Confirm Payment</button>
+          </form>
+        </div>
+    </div>
+  </main>
+  <div class="process-section" id="process-section"></div>
+  
+  
+  <script src="index.js" type="module"></script>
+</body>
+</html>

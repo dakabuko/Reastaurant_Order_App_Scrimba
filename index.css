@@ -1,0 +1,206 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+  background-image: url(./images/pizza.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0 auto;
+  width: 70vw;
+  height: 10rem;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20px;
+  justify-content: center;
+  color: rgb(83, 21, 21);
+  font-style: italic;
+}
+
+
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: black;
+  
+}
+  
+
+
+
+.item-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: lightcyan;
+  width: 70vw;
+  margin: 0 auto;
+  color: brown;
+  margin-bottom: 20px;
+ 
+}
+
+.item-img {
+  font-size: 5rem;
+  margin-right: 40px;
+}
+
+.order-section {
+  background: lightcyan;
+  width: 70vw;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: brown;
+}
+
+
+.orderItem-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center ;
+  padding: 2px 10% ;
+}
+
+.btn {
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.remove-btn {
+  height: 30px;
+  width: 80px;
+}
+
+.order-section-header,
+.btn-container {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 10px 0 10px;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+}
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 20px;
+}
+
+.item-area {
+  display: flex;
+}
+
+.add-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  font-size: 2.5rem;
+  font-weight: none;
+  border: none;
+  margin-left: 50px;
+  position: absolute;
+  left: 70%;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-around;
+  
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.complete-order-btn {
+  background: orange;
+  border: none;
+  height: 5rem;
+  width: 100%;
+  font-size: 1.5rem;
+ 
+}
+
+.card-details{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 50%;
+  background: white;
+  
+}
+
+input {
+  padding: .75rem 1rem;
+}
+
+.card-btn {
+  padding: .75rem 1rem;
+  background: chocolate;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.payment-modal {
+  display: none;
+  position: absolute;
+  background: white;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.process-section {
+  display: block;
+  position: absolute;
+  top: 20%;
+  
+}
+
+.process-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: chocolate;
+  color: white;
+  width: 100vw;
+  height: 10rem;
+  align-items: center;
+  border-radius: 10px;
+  
+  
+}
+
+
+
+
